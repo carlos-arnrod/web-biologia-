@@ -1,0 +1,95 @@
+body{
+     width: auto;
+     background: url(imágenes/fondo.png);
+     background-repeat: no-repeat;
+     background-color: #F9F1CF;
+     color:black;
+    }
+
+
+main li a{
+         text-decoration: none;
+         color:rgb(18, 215, 241)  
+        }
+
+
+nav li{
+       display: inline-block;
+       text-align: center;
+       padding: 30px 70px;
+       color: rgb(18, 215, 241);
+       font-size: 30px;
+       text-decoration:none ;
+      }
+nav li a{
+         text-decoration: none;
+         color:rgb(0, 255, 0)  
+        }
+nav li a:hover{
+               color:white
+              }
+nav ul{
+       padding: 0%;
+      }
+.articulo{
+          box-shadow: 0px 0px 4px gray;
+          border:1px lightgray solid;
+          border-radius:3px;
+          background-color:white;
+          text-align:center;
+          padding:5px 5px 22px 5px;
+          float: left;
+          width: 300px;
+         }
+#caja2{
+       float:left;
+       margin-right: 75px;
+       margin-left: 75px;
+      }
+.main{
+      width: 1100px;
+      margin: 60px auto ;
+     }
+.lista{ 
+       width: 1200px;
+       margin: 0px auto;
+      }
+#franja{
+        width:100%;
+        position:absolute;
+        top:0;
+        left:0;
+        height:90px;
+        background-color:#313B44;
+        border-bottom:6px black solid;
+       }
+
+footer{
+       clear: both;
+      }
+#franja2{
+	   width:100%;
+	   position:absolute;
+         bottom: 120px;
+	   left:0;
+	   height:60px;
+	   background-color:#313B44;
+	   border-top:6px black solid;
+        }
+header{
+       position:relative;
+       width:1000px;
+       margin:0 auto;
+       color: white;
+      }
+table td, th{
+             
+             border: 1px solid black;
+            }
+table{margin: 10px auto;};
+#mapa{
+     
+      position: relative;
+      left: 1000px;
+      bottom: 200px;
+   }
